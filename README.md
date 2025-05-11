@@ -1,86 +1,78 @@
 # MarkDown
-# Projeto Teste Markdown
+# Relatório Completo - Markdown
 
-## Introdução
-Markdown é uma linguagem de marcação simples originalmente criada por John Gruber e Aaron Swartz em 2004.
+## 1. Introdução
 
-## Utilização
-Markdown converte texto em HTML ou outros formatos e é muito usada em README.md no GitHub, fóruns, blogs e documentação.
+Markdown é uma linguagem de marcação simples originalmente criada por John Gruber e Aaron Swartz em 2004. O objetivo do Markdown é permitir que as pessoas escrevam de maneira legível e fácil, e ao mesmo tempo, gerar conteúdo formatado (geralmente convertido para HTML).
+
+## 2. Utilização
+
+Markdown converte o texto em HTML ou outros formatos. É frequentemente usada para formatar arquivos README no GitHub, para escrever mensagens em fóruns de discussão online, blogs, mensagens instantâneas, software colaborativo como os notebooks do Google Colab e documentação em geral.
 
 ---
 
-## Exemplos de Elementos Markdown
+## 3. Exemplos de Markdown
 
-### 1. Títulos
-# Título principal  
-## Sub-título  
-### Sub-sub-título  
-#### Sub-sub-sub-título  
+### 3.1 Títulos
 
-### 2. Formatação  
-Texto em **negrito**  
-Texto em *itálico* ou _itálico_  
-Texto ~~tachado~~  
+Markdown permite a criação de títulos e subtítulos utilizando o símbolo `#`. Existe uma hierarquia com até 6 níveis de títulos.
 
-### 3. Citação  
-> "A imaginação é mais importante do que o conhecimento"  
-> Albert Einstein  
+Exemplo:
+```markdown
+# Título principal
+## Sub-título
+### Sub-sub-título
+#### Sub-sub-sub-título
 
-### 4. Código  
-Exemplo de código em `Linguagem C`:  
-```c
+```
+> "A imaginação é mais importante do que o conhecimento."  
+> Albert Einstein
 
 void main() {
- printf("Olá mundo!");
+    printf("Olá mundo!");
 }
-### 3.5 Listas e Linha Horizontal  
-Lista de compras:  
-- Banana  
-- Maçã  
-- Melancia  
 
-***  
+- Banana
+- Maçã
+- Melancia
 
-Receita:  
-1. Comprar os ingredientes  
-2. Preparar a comida  
-3. Comer  
+1. Comprar os ingredientes
+2. Preparar a comida
+3. Comer
 
-### 3.6 Imagem  
+![Texto alternativo](URL da imagem "Texto explicativo")
+
 Logo da Udesc:  
-![alt text](https://www1.udesc.br/imagens/id_submenu/899/cor_horizontal_rgb.jpg "Logo Udesc")  
+![alt text](https://www1.udesc.br/imagens/id_submenu/899/cor_horizontal_rgb.jpg "Logo Udesc")
 
-### 3.7 Link  
+[Texto do link](URL)
+
 Link para a [Udesc](https://udesc.br/)
 
-### 3.8 Tarefa  
-Tarefas:  
-- [ ] Criar  
-- [ ] Verificar  
-- [ ] Destruir  
+Tarefas:
+- [ ] Criar
+- [ ] Verificar
+- [ ] Destruir
 
-### 3.9 Emoji  
-Exemplos: :heart:, :poop:, :+1:, :smile:
+:heart:, :poop:, :+1:, :smile:
 
-### 3.10 Tabela  
 | Código | Descrição do Item | Preço (R$) |
 | :---: | --- | ---: |
 | 1 | Computador | 8.999,99 |
 | 2 | *Notebook* | 4.999,99 |
 | 3 | *Smartphone* | 3.999,99 |
 
-### 3.11 Ícones  
 > [!TIP]  
-> Dica  
+> Dica
 
 > [!NOTE]  
-> Nota  
+> Nota
 
 > [!IMPORTANT]  
-> Importante  
+> Importante
 
 > [!WARNING]  
-> Advertência  
+> Advertência
 
 > [!CAUTION]  
-> Perigo  
+> Perigo
