@@ -1,45 +1,34 @@
 # MarkDown
 # Projeto Teste Markdown
 
-## Tópicos abordados
+## Introdução
+Markdown é uma linguagem de marcação simples originalmente criada por John Gruber e Aaron Swartz em 2004.
 
-- [x] Títulos e subtítulos
-- [x] Ênfase (negrito, itálico)
-- [x] Listas ordenadas e não ordenadas
-- [x] Links e imagens
-- [x] Bloco de código e linha de código
-- [x] Citações
+## Utilização
+Markdown converte texto em HTML ou outros formatos e é muito usada em README.md no GitHub, fóruns, blogs e documentação.
 
 ---
 
-### **1. Negrito e Itálico**
+## Exemplos de Elementos Markdown
 
-*Itálico*, **Negrito**, ***Ambos***
+### 1. Títulos
+# Título principal  
+## Sub-título  
+### Sub-sub-título  
+#### Sub-sub-sub-título  
 
-### **2. Lista ordenada**
+### 2. Formatação  
+Texto em **negrito**  
+Texto em *itálico* ou _itálico_  
+Texto ~~tachado~~  
 
-1. Primeiro item  
-2. Segundo item  
-3. Terceiro item
+### 3. Citação  
+> "A imaginação é mais importante do que o conhecimento"  
+> Albert Einstein  
 
-### **3. Lista não ordenada**
-
-- Item A  
-- Item B  
-- Item C
-
-### **4. Link**
-
-[Visite o GitHub](https://github.com)
-
-### **5. Imagem**
-
-![Logo Markdown](https://markdown-here.com/img/icon256.png)
-
-### **6. Código**
-
-`linha de código`
-
-```python
-# bloco de código em Python
-print("Olá, Markdown!")
+### 4. Código  
+Exemplo de código em `Linguagem C`:  
+```c
+void main() {
+ printf("Olá mundo!");
+}
